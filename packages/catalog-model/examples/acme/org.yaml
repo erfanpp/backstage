@@ -1,19 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: acme-corp
-  description: The acme-corp organization
+  name: FlyToday
+  description: FlyToday Online Travel Agency
   links:
-    - url: http://www.acme.com/
+    - url: http://www.flytoday.ir/
       title: Website
     - url: https://meta.wikimedia.org/wiki/
-      title: Intranet
+      title: OTA
 spec:
   type: organization
   profile:
-    displayName: ACME Corp
-    email: info@example.com
-    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+    displayName: FlyToday
+    email: info@flytoday.com
+    picture: https://www.flytoday.ir/Content/Views/Global/images/Domains/40/FileNameLogoFile_637701587653270139_.svg?background=%23fff&margin=25
   children: [infrastructure]
 ---
 apiVersion: backstage.io/v1alpha1
